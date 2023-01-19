@@ -1,7 +1,7 @@
 let loginbtn=document.getElementById("loginbtn");
 loginbtn.addEventListener("click",validate);
 user_record=JSON.parse(localStorage.getItem("userslist"))
-console.log(user_record)
+// console.log(user_record)
 function validate(){
 
 

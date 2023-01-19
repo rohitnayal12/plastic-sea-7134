@@ -1,5 +1,5 @@
 .images{
-    display: flex;gap: 10px;
+    display: flex;gap: 25px;
     margin-top: 20px;
 }
 body>img{
@@ -7,7 +7,7 @@ body>img{
     width: 7%;
 }
 .images1{
-    display: flex;gap: 10px;
+    display: flex;gap: 25px;
     margin-top: 30px;
 }
 .nav{
@@ -15,10 +15,10 @@ body>img{
     justify-content: space-around;
 }
 .images img{
-    width: 290px;
+    width: 275px;
 }
 .images1 img{
-    width: 290px;
+    width: 275px;
 }
 h1{
     text-align: center;
@@ -87,3 +87,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
 
 }
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jwellery img:hover{
+      transform: scale(1.1);
+}
+.grocerry img:hover{
+    transform: scale(1.1);
+}
+
