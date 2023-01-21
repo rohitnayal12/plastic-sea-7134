@@ -1,11 +1,12 @@
 .formbox{
     /* border: 2px solid red; */
-    width: 30%;margin: auto;
-    margin-top: 200px;
+    width: 380px;margin: auto;
+    /* margin-top:180px; */
     /* background-color: aqua; */
     /* background-image: url("https://e0.pxfuel.com/wallpapers/504/132/desktop-wallpaper-simple-background-cool-simple-thumbnail.jpg"); */
-    background: rgb(179, 224, 246);
+    background: rgb(150, 209, 136);
     text-align: center;
+    /* margin-right:62%; */
 }
 .anchor{
     display: flex;
@@ -13,7 +14,7 @@
     /* justify-content: space-between; */
 }
 .formbox h1{
-    color: rgb(13, 184, 87);
+    color: rgb(113, 91, 233);
     font-size: 40px;
 }
 .input-field{
@@ -53,7 +54,7 @@ form p{
     background-color: gray;
 }
 body{
-    background-color: rgb(148, 148, 233);
+    background-color: rgb(226, 226, 249);
 }
 a{
     color: rgb(201, 53, 19);
@@ -61,5 +62,14 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-image: url("https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__340.jpg");
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__340.jpg"); */
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.boooox{
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+    /* border: solid red; */
 }
