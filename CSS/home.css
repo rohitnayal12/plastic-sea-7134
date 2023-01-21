@@ -17,6 +17,9 @@ body>img{
 .images img{
     width: 275px;
 }
+.images div{
+    text-align: center;
+}
 .images1 img{
     width: 275px;
 }
@@ -97,5 +100,14 @@ a{
 }
 .grocerry img:hover{
     transform: scale(1.1);
+}
+.images1 div{
+    text-align: center;
+}
+.images1 img {
+    margin-bottom: 25px;
+}
+.images img {
+    margin-bottom: 25px;
 }
 

@@ -1,12 +1,10 @@
 let signupbtn=document.getElementById("signupbtn");
 signupbtn.addEventListener("click",savedata);
 let signinbtn=document.getElementById("signinbtn")
-signinbtn.addEventListener("click",redirect);
+// signinbtn.addEventListener("click",redirect);
 
 
-function redirect(){
-   window.open()
-}
+
 
 
 function savedata(){
