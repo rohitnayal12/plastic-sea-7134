@@ -18,14 +18,24 @@ function validate(){
 
         if((emailEl==element.email) && (passwordEl==element.password))
         {
-            alert("Login pass");
+            alert("Login Successful");
         }
         else{
-            alert("login fail")
+            alert("Wrong email or Password")
         }
         
     });
-   
+
+
+    // console.log(user_record.password)
+    
+    // if((emailEl==user_record.email) && (passwordEl==user_record.password))
+    //     {
+    //         alert("Login pass");
+    //     }
+    //     else{
+    //         alert("login fail")
+    //     }
 
 
 

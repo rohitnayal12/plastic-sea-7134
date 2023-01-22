@@ -4,9 +4,10 @@
     /* margin-top:180px; */
     /* background-color: aqua; */
     /* background-image: url("https://e0.pxfuel.com/wallpapers/504/132/desktop-wallpaper-simple-background-cool-simple-thumbnail.jpg"); */
-    background: rgb(150, 209, 136);
+    background: rgb(237, 243, 236);
     text-align: center;
     /* margin-right:62%; */
+    border-radius: 15px;
 }
 .anchor{
     display: flex;
@@ -18,7 +19,7 @@
     font-size: 40px;
 }
 .input-field{
-       margin: 15px 0;
+       margin: 15px 10px;
        border-radius: 3px;
        display: flex;
        align-items: center;
@@ -49,6 +50,7 @@ form p{
     cursor: pointer;
     color: white;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .btn2{
     background-color: gray;
@@ -62,7 +64,7 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    /* background-image: url("https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__340.jpg"); */
+    background-image: url("https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -72,4 +74,10 @@ body{
     gap: 200px;
     margin-top: 100px;
     /* border: solid red; */
+}
+.boooox img:hover{
+    transform: scale(1.1);
+}
+.boooox img{
+    border-radius: 15px;
 }
